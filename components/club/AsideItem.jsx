@@ -35,7 +35,7 @@ const AsideItem = ({data}) => {
     
               formData.append('key', 'true');
     
-              const axiosResponse = await axios.post('http://localhost:8081/api/event', formData, {
+              const axiosResponse = await axios.post('yaleclubsapi.vercel.app/api/event', formData, {
                 headers: {
                   'Content-Type': 'multipart/form-data',
                 },
